@@ -1,0 +1,19 @@
+//
+//  FoodieUnity.pch
+//  Foodie
+//
+//  Created by ms on 15/12/21.
+//  Copyright © 2015年 LiuYunchao. All rights reserved.
+//
+
+#ifndef FoodieUnity_pch
+#define FoodieUnity_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "MyControl.h"
+#import "UIView+Common.h"
+#define COOKBOOKURL @"http://api.wecook.cn/v3/recipe/recommend?timestamp=1440053982796&sign=75be8222607f22119fcf39e0196c6ebe&uid=0&access=259eea423dee18c7b865b0777cd657cc&wid=d1f3f71650d8944c00f4dbdcc4034397&page=%ld&batch=20"
+#define NEWSURL @"http://api.wecook.cn/v3/topic?timestamp=1439366111284&sign=75be8222607f22119fcf39e0196c6ebe&uid=&access=259eea423dee18c7b865b0777cd657cc&wid=d1f3f71650d8944c00f4dbdcc4034397&page=1&batch=20"
+#define GOWHERE @"http://api.wecook.cn/v3/events?timestamp=1439365930664&sign=75be8222607f22119fcf39e0196c6ebe&uid=0&access=259eea423dee18c7b865b0777cd657cc&wid=d1f3f71650d8944c00f4dbdcc4034397&page=1&batch=20"
+#endif /* FoodieUnity_pch */
